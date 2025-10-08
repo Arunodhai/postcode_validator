@@ -6,8 +6,8 @@ source 'https://rubygems.org'
 gemspec
 
 group :development, :test do
-  gem 'rubocop'
-  gem 'rubocop-performance'
-  gem 'rubocop-rake'
-  gem 'rubocop-rspec'
+  gem 'rubocop', '>= 1.66.0'
+  gem 'rubocop-performance', '>= 1.21.0'
+  gem 'rubocop-rake', '>= 0.7.0'
+  gem 'rubocop-rspec', '>= 2.27.0'
 end
